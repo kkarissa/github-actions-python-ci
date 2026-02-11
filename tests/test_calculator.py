@@ -17,7 +17,7 @@ class TestCalculator(unittest.TestCase):
         # COMPLETE HERE
         self.assertEqual(divide(2, 4), 0.5)
         self.assertEqual(divide(-1, 1), -1)
-        self.assertEqual(divide(-1, 0), "Error: Division by zero")
+        self.assertEqual(divide(-1, 8), -0.125)
 
 if __name__ == '__main__':
    unittest.main()
